@@ -1,0 +1,7 @@
+if [ -f /usr/bin/python3 ]; then 
+        #echo "python3 /opt/ICICA-ux/bin/sshd_handler_cmd.py $@"
+        echo "python3 /opt/ICICA-ux/bin/sshd_handler_cmd.py $@"|sh
+        #python3 /opt/ICICA-ux/bin/sshd_handler_cmd.py $@
+    else
+        echo "ERR: You need python3"
+    fi
